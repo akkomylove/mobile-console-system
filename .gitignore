@@ -1,0 +1,46 @@
+# 虚拟环境与依赖
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 敏感配置与私密信息 (防止泄露至 GitHub)
+.env
+*.local
+*.key
+*.pem
+
+# 数据库与运行时状态
+storage/database/*.db
+storage/database/*.db-journal
+storage/database/*.db-wal
+storage/database/*.db-shm
+*.db
+
+# 运行时临时数据与现场截图大文件
+storage/captures/*
+!storage/captures/.gitkeep
+storage/temp/*
+!storage/temp/.gitkeep
+storage/logs/*
+!storage/logs/.gitkeep
+storage/reports/*
+!storage/reports/.gitkeep
+
+# IDE与系统文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 打包归档文件
+*.zip
+*.tar.gz
+手机端项目与独立采集脚本交付包/
+release_packages/
+拼多多自动化采集工具_便携独立版/
+拼多多自动化采集_便携版/
